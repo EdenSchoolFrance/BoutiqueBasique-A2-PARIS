@@ -1,13 +1,13 @@
 
 # BOUTIQUE BASIQUE
 
-******Utilisation d'un Layout(view), de l'Objet (modèle), de sessions (panier, login), de controlers,  de l'objet PDO (DAO) ****** (!!il manque une contrainte d'unicité sur le champ email du client!!)
+******Utilisation d'un Layout(view), de l'Objet (modèle), de sessions (panier, login), de controllers,  de l'objet PDO (DAO) ****** 
 
 Il s'agit d'une boutique qui permet à un utilisateur de mettre des produits dans un panier et de passer une commande.
 
 
 Au niveau de la bdd :  4 tables :  Client  -  Commande  - LigneCommande  -  Produit
-(le script sql est dans le dossier config)
+(le script sql est dans le dossier config)(!!il manque une contrainte d'unicité sur le champ email du client!!)
 
 
 Il y a 2 types d'utilisateurs :
