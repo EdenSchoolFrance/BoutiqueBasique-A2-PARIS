@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Capriola&family=Fascinate&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Capriola', sans-serif;
+}
+
+header, footer {
+    min-height: 10vw;
+    background-color: #2ec4b6;
+    text-align: center;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1, small {
+    padding: 3vw 0;
+    font-family: 'Fascinate', cursive;
+    margin: 0;
+}
+
+#submit a {
+    text-decoration: none;
+    color: white;
+}
+
+#slogan {
+    background-color: #CBF3F0;
+}
+
+#nomClient, #nomProduit, #prixProduit, #nomCommande {
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+h3 {
+    text-align: center;
+}
+
+#slogan h2 {
+
+    text-transform: lowercase;
+    padding: 1vw;
+    text-align: center;
+    margin: 0;
+}
+
+#width {
+    width: auto;
+}
+
+span:after {
+    width: 5vw;
+    height: 5vw;
+    display: inline-block;
+    position: fixed;
+    background-color: #ffbf69;
+    bottom: 5vw;
+    right: 5vw;
+    border-radius: 50%;
+    font-size: 3vw;
+    text-align: center;
+    line-height: 5vw;
+}
+
+select {
+    margin: 15px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+#delete {
+    background-color: red !important;
+}
+
+h2 {
+    margin: 30px;
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 30px;
+    margin: 15px auto;
+}
+
+#section {
+    flex-basis: 40%;
+    padding: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+#house {
+    width: 3%;
+    position: fixed;
+    left: 0;
+    margin: 50px 15px;
+}
+
+#profil {
+    width: 4%;
+    position: fixed;
+    right: 0;
+    margin: 50px 15px;
+}
+
+.qte {
+    width: 4%;
+    position: fixed;
+    right: 0;
+    margin: 90px 15px;
+    color:brown;
+    font-size:18px;;
+    font-weight: bold;
+}
+
+.article {
+    border: 1px solid #FFBF69;
+    padding: 25px;
+    margin: 30px auto;
+    display: flex;
+    width: 44%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#linkTop {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 20px;
+    width: 5%;
+    background-color: #FFBF69;
+    border-radius: 50%;
+}
+
+.container {
+    width: 20vw;
+    overflow: hidden;
+}
+
+.login {
+    color: blue;
+    align: right;
+}
+
+.erreur {
+    color: red;
+    text-align: center;
+    font-size:18px;;
+    font-weight: bold;
+}
+
+.panier {
+    color: darkblue;
+    font-size: 16px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 250px;
+}
+
+input:not(input[type="file"], #submit, #delete) {
+    width: 322px;
+    padding: 10px;
+}
+
+form:not(#formCreate, #formDelete, #formLogin) {
+    width: 40%;
+    margin: 20px auto;
+    font-size: 20px !important;
+    display: flex;
+}
+
+#formCreate, #formDelete, #formLogin {
+    width: 40%;
+}
+
+#login {
+    background: green;
+    margin: auto;
+}
+
+#login a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+}
+
+input, button {
+    font-size: 17px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+#submit, #delete {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 15px 0 auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+small {
+    padding-top: 7vw;
+    display: block;
+    font-size: 1.6vw;
+}
+
+#quantityPanier {
+    position: fixed;
+    right: 7px;
+    background-color: red;
+    margin: auto;
+    padding: 10px 17px;
+    border-radius: 50%;
+    color: white;
+    top: 32px;
+}
+.choiceQuantity{
+    display: flex;
+    justify-content: center;
+}
+.imageInPanier {
+    width: 100%;
+}
+
+#vlc {
+    width: 50%;
+    height: 13%;
+    margin-top: 2%;
+    margin-left: 22%;
+}
+
+.ctG {
+    float: left;
+    width: 20%;
+}
+
+.ctD {
+    float: right;
+    width: 80%;
+}
+
+.imageAddRemove {
+    width: 5%;
+
+}
+
+.supp {
+    position: relative;
+    width: 5%;
+    left: 75%;
+    bottom: 4%;
+}
+
+
+.panier {
+    color: darkblue;
+    font-size: 16px;
+    text-align: left;
+    padding: 40px;
+
+}
+
+.scroller {
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+
+}
+
+.signeInput {
+    position: absolute;
+    border: none;
+    width: 20px;
+    background: none;
+    cursor: pointer;
+}
+
+#submit, #delete {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    margin: 15px 0 auto;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+small {
+    padding-top: 7vw;
+    display: block;
+    font-size: 1.6vw;
+}
+
+.imgPanier {
+    transition: 0.5s ease-in-out;
+    display: flex;
+    width: 5vw;
+}
+
+.produitPanier {    padding-left: 1vw;
+    display: flex;
+    width: 55vw;
+}
+
+.imgPanier:hover {
+    width: 10vw;
+}
